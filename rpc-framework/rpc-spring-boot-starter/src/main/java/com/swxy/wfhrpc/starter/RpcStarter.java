@@ -16,7 +16,7 @@ public class RpcStarter implements CommandLineRunner {
     }
     @Override
     public void run(String... args) throws Exception {
-        log.info("yrpc 开始启动...");
+        log.info("rpc 开始启动...");
         RpcBootstrap.getInstance()
             .application(properties.getApplication())
             .registry(new RegistryConfig(properties.getRegistry()))

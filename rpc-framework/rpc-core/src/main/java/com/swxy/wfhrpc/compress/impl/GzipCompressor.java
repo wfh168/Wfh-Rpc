@@ -12,7 +12,7 @@ import java.util.zip.GZIPOutputStream;
 
 /**
  * 使用gzip算法进行压缩的具体实现
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-05
  */
 @Slf4j

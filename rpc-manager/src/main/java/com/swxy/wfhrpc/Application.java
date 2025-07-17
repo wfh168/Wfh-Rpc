@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 注册中心的管理页面
  *
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-29
  */
 @Slf4j
@@ -19,7 +19,7 @@ public class Application {
     
     public static void main(String[] args) throws InterruptedException {
         // 帮我们创建基础目录
-        // yrpc-metadata   (持久节点)
+        // rpc-metadata   (持久节点)
         //  └─ providers （持久节点）
         //  		└─ service1  （持久节点，接口的全限定名）
         //  		    ├─ node1 [data]     /ip:port

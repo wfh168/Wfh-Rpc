@@ -4,7 +4,7 @@ package com.swxy.wfhrpc;
 import com.swxy.wfhrpc.disocovery.RegistryConfig;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-28
  */
 public class ProviderApplication {

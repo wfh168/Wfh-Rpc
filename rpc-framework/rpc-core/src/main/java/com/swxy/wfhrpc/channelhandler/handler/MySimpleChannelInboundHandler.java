@@ -18,7 +18,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * 这是一个用来测试的类
  *
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-02
  */
 @Slf4j

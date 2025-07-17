@@ -7,7 +7,7 @@ import com.swxy.wfhrpc.disocovery.impl.ZookeeperRegistry;
 import com.swxy.wfhrpc.exceptions.DiscoveryException;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-28
  */
 public class RegistryConfig {

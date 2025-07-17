@@ -1,7 +1,7 @@
 package com.swxy.wfhrpc.exceptions;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-29
  */
 public class SerializeException extends RuntimeException{

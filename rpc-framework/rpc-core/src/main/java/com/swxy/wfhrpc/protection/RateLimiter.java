@@ -1,7 +1,7 @@
 package com.swxy.wfhrpc.protection;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-25
  */
 public interface RateLimiter {

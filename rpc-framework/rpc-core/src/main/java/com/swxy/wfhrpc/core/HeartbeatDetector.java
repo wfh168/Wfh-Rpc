@@ -22,7 +22,7 @@ import java.util.concurrent.TimeoutException;
 /**
  * 心跳探测的核心目的是什么？探活，感知哪些服务器的连接状态是正常的，哪些是不正常的
  *
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-07
  */
 @Slf4j
@@ -150,7 +150,7 @@ public class HeartbeatDetector {
             if (redisPassword != null && !redisPassword.isEmpty()) {
                 jedis.auth(redisPassword);
             }
-            String key = "yrpc:heartbeat:" + serviceName + ":" + ip + ":" + port;
+            String key = "rpc:heartbeat:" + serviceName + ":" + ip + ":" + port;
             while (true) {
                 try {
                     jedis.setex(key, 15, String.valueOf(System.currentTimeMillis())); // 15秒过期
@@ -159,7 +159,7 @@ public class HeartbeatDetector {
                     log.error("Redis心跳上报异常", e);
                 }
             }
-        }, "yrpc-redis-heartbeat-provider").start();
+        }, "rpc-redis-heartbeat-provider").start();
     }
 
     /**
@@ -170,7 +170,7 @@ public class HeartbeatDetector {
             Jedis jedis = new Jedis(redisHost, redisPort);
             while (true) {
                 try {
-                    Set<String> keys = jedis.keys("yrpc:heartbeat:" + serviceName + ":*");
+                    Set<String> keys = jedis.keys("rpc:heartbeat:" + serviceName + ":*");
                     long now = System.currentTimeMillis();
                     for (String key : keys) {
                         String value = jedis.get(key);
@@ -187,6 +187,6 @@ public class HeartbeatDetector {
                     log.error("Redis心跳检测异常", e);
                 }
             }
-        }, "yrpc-redis-heartbeat-consumer").start();
+        }, "rpc-redis-heartbeat-consumer").start();
     }
 }

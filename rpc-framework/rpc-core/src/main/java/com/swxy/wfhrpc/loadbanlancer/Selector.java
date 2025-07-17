@@ -4,7 +4,7 @@ package com.swxy.wfhrpc.loadbanlancer;
 import java.net.InetSocketAddress;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-06
  */
 public interface Selector {

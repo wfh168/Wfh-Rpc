@@ -7,7 +7,7 @@ package com.swxy.wfhrpc.enumeration;
  * 错误码（客户端错误）  44
  * 错误码（服务端错误）  50（请求的方法不存在）
 
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-03
  */
 public enum RespCode {

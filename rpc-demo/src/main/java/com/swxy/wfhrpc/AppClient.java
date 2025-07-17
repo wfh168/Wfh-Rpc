@@ -13,7 +13,7 @@ import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-11
  */
 public class AppClient implements Serializable {

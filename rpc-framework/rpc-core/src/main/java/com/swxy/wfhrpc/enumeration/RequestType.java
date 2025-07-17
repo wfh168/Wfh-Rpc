@@ -3,7 +3,7 @@ package com.swxy.wfhrpc.enumeration;
 /**
  * 用来标记请求类型
  *
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-03
  */
 public enum RequestType {

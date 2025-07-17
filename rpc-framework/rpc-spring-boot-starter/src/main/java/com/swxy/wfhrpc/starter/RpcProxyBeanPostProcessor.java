@@ -19,8 +19,8 @@ public class RpcProxyBeanPostProcessor implements BeanPostProcessor {
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         Field[] fields = bean.getClass().getDeclaredFields();
         for (Field field : fields) {
-            RpcService yrpcService = field.getAnnotation(RpcService.class);
-            if(yrpcService != null){
+            RpcService rpcService = field.getAnnotation(RpcService.class);
+            if(rpcService != null){
                 Class<?> type = field.getType();
                 Object proxy = RpcProxyFactory.getProxy(type, properties);
                 field.setAccessible(true);

@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 思考注册中心，应该具有什么样的能力
  *
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-30
  */
 public interface Registry {

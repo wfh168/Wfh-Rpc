@@ -32,7 +32,7 @@ import java.util.concurrent.TimeoutException;
  * 该类封装了客户端通信的基础逻辑，每一个代理对象的远程调用过程都封装在了invoke方法中
  * 1、 发现可用服务    2、建立连接   3、发送请求   4、得到结果
  *
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-02
  */
 @Slf4j

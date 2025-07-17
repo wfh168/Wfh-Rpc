@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 最简单的熔断器的实现
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-22
  */
 public class CircuitBreaker {

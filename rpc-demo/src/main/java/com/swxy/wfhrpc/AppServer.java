@@ -9,7 +9,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-11
  */
 public class AppServer {

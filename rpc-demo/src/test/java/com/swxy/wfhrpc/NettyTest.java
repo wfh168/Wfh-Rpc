@@ -16,7 +16,7 @@ import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-10
  */
 public class NettyTest {

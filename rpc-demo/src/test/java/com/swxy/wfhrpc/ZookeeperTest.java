@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-20
  */
 public class ZookeeperTest {

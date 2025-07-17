@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * 服务调用方发起的请求内容
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-02
  */
 @Data

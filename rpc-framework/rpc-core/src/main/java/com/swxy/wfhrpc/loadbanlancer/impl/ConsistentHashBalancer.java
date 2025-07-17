@@ -15,7 +15,7 @@ import java.util.TreeMap;
 
 /**
  * 一致性hash的负载均衡策略
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-06
  */
 @Slf4j

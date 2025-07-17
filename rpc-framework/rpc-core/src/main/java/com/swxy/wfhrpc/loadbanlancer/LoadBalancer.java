@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 负载均衡器的接口
  *
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-06
  */
 public interface LoadBalancer {

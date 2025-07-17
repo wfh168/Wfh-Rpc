@@ -7,7 +7,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-11
  */
 public class MyChannelHandler2 extends ChannelInboundHandlerAdapter {

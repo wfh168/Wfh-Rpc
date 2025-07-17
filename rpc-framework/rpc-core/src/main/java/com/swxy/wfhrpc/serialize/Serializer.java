@@ -3,7 +3,7 @@ package com.swxy.wfhrpc.serialize;
 /**
  * 序列化器
  *
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-04
  */
 public interface Serializer {

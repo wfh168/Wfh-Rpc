@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-30
  */
 public class RpcProxyFactory {

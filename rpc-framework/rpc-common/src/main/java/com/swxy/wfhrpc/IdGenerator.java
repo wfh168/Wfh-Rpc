@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.LongAdder;
 
 /**
  * 请求id的生成器
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-04
  */
 public class IdGenerator {

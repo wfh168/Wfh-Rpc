@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.LongAdder;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-29
  */
 public class ShutDownHolder {

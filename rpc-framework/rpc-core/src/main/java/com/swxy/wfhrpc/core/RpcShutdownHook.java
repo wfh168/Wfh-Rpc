@@ -1,7 +1,7 @@
 package com.swxy.wfhrpc.core;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-29
  */
 public class RpcShutdownHook extends Thread {

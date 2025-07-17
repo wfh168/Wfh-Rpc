@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-01
  */
 public class MyCompletableFuture {

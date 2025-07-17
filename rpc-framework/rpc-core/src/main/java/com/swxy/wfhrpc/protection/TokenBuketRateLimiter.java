@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 基于令牌桶算法的限流器
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-22
  */
 @Slf4j

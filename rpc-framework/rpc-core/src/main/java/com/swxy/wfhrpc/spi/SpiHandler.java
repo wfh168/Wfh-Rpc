@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 /**
  * 实现一个简易版本的spi
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-13
  */
 @Slf4j

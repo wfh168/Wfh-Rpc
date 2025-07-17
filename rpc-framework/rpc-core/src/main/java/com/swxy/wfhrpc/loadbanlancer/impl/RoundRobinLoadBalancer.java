@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 轮询的负载均衡策略
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-06
  */
 @Slf4j

@@ -5,7 +5,7 @@ import org.apache.zookeeper.Watcher;
 
 /**
  * 你们的watcher只编写自己关心的事件
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-20
  */
 public class MyWatcher implements Watcher {

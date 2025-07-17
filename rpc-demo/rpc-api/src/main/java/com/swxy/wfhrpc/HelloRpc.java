@@ -4,7 +4,7 @@ package com.swxy.wfhrpc;
 import com.swxy.wfhrpc.annotation.TryTimes;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-06-27
  */
 public interface HelloRpc {

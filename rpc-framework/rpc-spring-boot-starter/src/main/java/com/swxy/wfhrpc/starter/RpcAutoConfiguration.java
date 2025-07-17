@@ -13,7 +13,7 @@ public class RpcAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    public RpcStarter yrpcStarter(RpcProperties properties) {
+    public RpcStarter rpcStarter(RpcProperties properties) {
         // Provider端自动启动
         if (properties.isEnableRedisHeartbeat()) {
             String ip = NetUtils.getIp();
@@ -40,7 +40,7 @@ public class RpcAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    public RpcProxyBeanPostProcessor yrpcProxyBeanPostProcessor(RpcProperties properties) {
+    public RpcProxyBeanPostProcessor rpcProxyBeanPostProcessor(RpcProperties properties) {
         // Consumer端自动检测心跳
         if (properties.isEnableRedisHeartbeat()) {
             HeartbeatDetector.checkHeartbeatFromRedis(

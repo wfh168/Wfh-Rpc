@@ -1,7 +1,7 @@
 package com.swxy.wfhrpc.compress;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-05
  */
 public interface Compressor {

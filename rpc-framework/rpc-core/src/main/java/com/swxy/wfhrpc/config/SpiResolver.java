@@ -11,7 +11,7 @@ import com.swxy.wfhrpc.spi.SpiHandler;
 import java.util.List;
 
 /**
- * @author it楠老师
+ * @author wfh168
  * @createTime 2023-07-13
  */
 public class SpiResolver {
