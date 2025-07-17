@@ -9,6 +9,7 @@
         <module name="rpc-springboot-provider" />
         <module name="rpc-demo" />
         <module name="rpc-common" />
+        <module name="rpc-spring-boot-starter" />
         <module name="rpc-springboot-consumer" />
         <module name="rpc-manager" />
         <module name="rpc-provider-demo" />
